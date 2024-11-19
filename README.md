@@ -2,7 +2,7 @@
 
 ## Steps to get it done
 
-- PArtition the SD the right way
+- Partition the SD the right way
 - Format the sd card
 - Mount stuff in you linux dsitro (I use Arch BTW :D))
 - Copy the stage 3 Gentoo to your drive
