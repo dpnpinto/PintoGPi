@@ -1,6 +1,7 @@
-# PintoGPi This project is just to put Gentoo in a Pi model 1 B
+# PintoGPi
+## This project is just q Gentoo intalation in Pi model 1 B with a zx Spectrum Emulator
 
-## Steps to get it done
+### Steps to get it done
 
 - Partition the SD the right way
 - Format the sd card
