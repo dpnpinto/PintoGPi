@@ -30,7 +30,7 @@ I use cfdisk, but you can use other software like fdisk or parted.
      - mount /dev/"partition 1" /mnt/PintoGPi/boot
 - Copy the stage 3 Gentoo to your mounted SD drive
    - They are here [Gentoo stage 3 images](https://gentoo.osuosl.org/releases/arm/autobuilds/),
-    - For this project (RaspBery Pi 1 B+, ARM V6)I use this one stage3-armv6j_hardfp-openrc-20241120T233322Z.tar.xz (With OpenRC ;))
+      - For this project (RaspBery Pi 1 B+, ARM V6)I use this one stage3-armv6j_hardfp-openrc-20241120T233322Z.tar.xz (With OpenRC ;))
     - Then get the tar file to a folder, for example
       - wget https://gentoo.osuosl.org/releases/arm/autobuilds/current-stage3-armv6j-openrc/stage3-armv6j-openrc-20241120T233322Z.tar.xz
     - Uncomrpess the tar file to you SD card mounted in /mnt/PintoGPi
