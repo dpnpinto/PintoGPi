@@ -5,7 +5,7 @@
 - Why [Gentoo](https://www.gentoo.org), just because I can, and Raspberry Pi 1 B is a great little device for learning, but it can be challenging to find a suitable operating system for it.
 - The instalations will be made all from  my Arch Linux [PintArch](https://github.com/dpnpinto/PintArch)
 - Don't use my version of Arch, do yourself a favor and install [Arch](https://archlinux.org) and, then, you are prepared for [Gentoo](https://www.gentoo.org)
-- I will leave here the image with all config done but It's nice to learn with a Gentoo instlation then I sugest that you do it yourself. "This is hte way" (MAlandorian way :D) that I have done it. 
+- I will leave here the image with all config done but It's nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
 
 ### Steps to get it done
 
