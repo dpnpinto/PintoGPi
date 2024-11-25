@@ -1,5 +1,5 @@
 # PintoGPi
-![Gentoo](https://assets.digitalocean.com/articles/alligator/boo.svg](https://assets.gentoo.org/tyrian/v1/site-logo.svg "Gentoo")
+![Gentoo](http://assets.digitalocean.com/articles/alligator/boo.svg](https://assets.gentoo.org/tyrian/v1/site-logo.svg "Gentoo")
 
 ## This project is just a Gentoo intalation in Pi model 1 B+ with a [Zx Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) emulator
 - Why [Gentoo](https://www.gentoo.org), just because I can and I whant to test some cross compiling "techniques" ;)
