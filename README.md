@@ -66,5 +66,5 @@ I use cfdisk, but you can use other software like fdisk or parted.
    - umount /mnt/PintoGPi 
 - Remove sd from your system and put it in RarpberryPi 
 
-## Steps to get it done now booting the Raspberry Pi
+## Steps to get it done, now booting with the Raspberry Pi
 ... Will continue
