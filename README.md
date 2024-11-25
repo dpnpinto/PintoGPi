@@ -7,7 +7,7 @@
 - Don't use my version of Arch, do yourself a favor and install [Arch](https://archlinux.org) and, then, you are prepared for [Gentoo](https://www.gentoo.org)
 - I will leave here the image with all config done but It's nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
 
-### Steps to get it done
+### Steps to get it done, format and copy stage 3 Gentoo to SD
 
 - Partition the SD card the right way
    - partition 1 - Fat 32 as Boot
