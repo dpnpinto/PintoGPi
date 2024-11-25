@@ -35,7 +35,18 @@ I use cfdisk, but you can use other software like fdisk or parted.
       - wget https://gentoo.osuosl.org/releases/arm/autobuilds/current-stage3-armv6j-openrc/stage3-armv6j-openrc-20241120T233322Z.tar.xz
     - Uncomrpess the tar file to you SD card mounted in /mnt/PintoGPi
       - tar -xf stage3-armv6j-openrc-20241120T233322Z.tar.xz -C /mnt/PintoGPi/
-- Copy the boot stuff Kernel and modules to boot
+- You have now to install Portage, that is the oficial pakage manager of Gentoo (a very advanced one ;) )
+    - To install it you have to download the snapshot of it and copy it to /usr (user system resorces)
+    - The snapshot is located in https://gentoo.osuosl.org/snapshots/ the file portage-latest.tar.xz
+      - Get it with wget https://gentoo.osuosl.org/snapshots/portage-latest.tar.xz
+      - Extract to your /usr in sd card tar -xf portage-latest.tar.xz -C /mnt/PintoGPi/usr
+- Install the Kernel and modules of the Raspbery Pi
+    - You can get all the stuff of Raepbery Pi from https://github.com/raspberrypi/firmware/
+      - CLone the stable repository
+        - git clone -b stable --depth 1 https://github.com/raspberrypi/firmware/
+      - get inside the cloned firmware cd firmware
+        - copy boot cp -r /boot /mnt/PintoGPi/boot/
+        - copy modules cp -r /modules /mnt/PintoGPi/lib/
 - Config correct keyboard
 - Config correct local
 - Config FSTAB
