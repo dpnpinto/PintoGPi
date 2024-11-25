@@ -16,23 +16,23 @@
 I use cfdisk, but you can use other software like fdisk or parted. 
 - Format the SD card
    - Make partition 1 as Fat 16
-     mkfs.vfat -F 16 /dev/"partition 1"
+     - mkfs.vfat -F 16 /dev/"partition 1"
    - Make partition 2 as SWAP
-     mkswap /dev/"partition 2"
+     - mkswap /dev/"partition 2"
    - MAke partition 3 as ext4
-     mkfs.ext4 /dev/"partition 3"
+     - mkfs.ext4 /dev/"partition 3"
 - Mount stuff in your linux distro (I use Arch BTW :D))
    - Create a directory in /mnt and mount your sd card partition 3 to that directory
-     mkdir /mnt/PintoGPi
-     mount /dev/"partition 3" /mnt/PintoGPi
+     - mkdir /mnt/PintoGPi
+     - mount /dev/"partition 3" /mnt/PintoGPi
    - Same thing for the boot
-     mkdir /mnt/PintoGPi/boot/
-     mount /dev/"partition 1" /mnt/PintoGPi/boot
+     - mkdir /mnt/PintoGPi/boot/
+     - mount /dev/"partition 1" /mnt/PintoGPi/boot
 - Copy the stage 3 Gentoo to your mounted SD drive
    - They are here [Gentoo stage 3 images](https://gentoo.osuosl.org/releases/arm/autobuilds/),
-    For this project (RaspBery Pi 1 B+, ARM V6)I use this one stage3-armv6j_hardfp-openrc-20241120T233322Z.tar.xz (With OpenRC ;))
-    Then get the tar file to a folder, for example wget https://gentoo.osuosl.org/releases/arm/autobuilds/current-stage3-armv6j-openrc/stage3-armv6j-openrc-20241120T233322Z.tar.xz
-    Then uncomrpess the tar file to you SD card mounted in /mnt/PintoGPi tar -xf stage3-armv6j-openrc-20241120T233322Z.tar.xz -C /mnt/PintoGPi/
+    - For this project (RaspBery Pi 1 B+, ARM V6)I use this one stage3-armv6j_hardfp-openrc-20241120T233322Z.tar.xz (With OpenRC ;))
+    - Then get the tar file to a folder, for example wget https://gentoo.osuosl.org/releases/arm/autobuilds/current-stage3-armv6j-openrc/stage3-armv6j-openrc-20241120T233322Z.tar.xz
+    - Uncomrpess the tar file to you SD card mounted in /mnt/PintoGPi tar -xf stage3-armv6j-openrc-20241120T233322Z.tar.xz -C /mnt/PintoGPi/
 - Copy the boot stuff Kernel and modules to boot
 - Config correct keyboard
 - Config correct local
