@@ -42,7 +42,7 @@ I use cfdisk, but you can use other software like fdisk or parted.
       - Extract to your /usr in sd card tar -xf portage-latest.tar.xz -C /mnt/PintoGPi/usr
 - Install the Kernel and modules of the Raspbery Pi
     - You can get all the stuff of Raepbery Pi from https://github.com/raspberrypi/firmware/
-      - CLone the stable repository
+      - Clone the stable repository
         - git clone -b stable --depth 1 https://github.com/raspberrypi/firmware/
       - get inside the cloned firmware cd firmware
         - copy boot cp -r /boot /mnt/PintoGPi/boot/
