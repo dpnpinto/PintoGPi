@@ -47,9 +47,24 @@ I use cfdisk, but you can use other software like fdisk or parted.
       - get inside the cloned firmware cd firmware
         - copy boot cp -r /boot /mnt/PintoGPi/boot/
         - copy modules cp -r /modules /mnt/PintoGPi/lib/
-- Config correct keyboard
-- Config correct local
-- Config FSTAB
+- Config the correct fstab
+   - Here you must use the correct devices that will start in Rapbery Pi, the SD is named mmcblk0p, edit the /mnt/PintoGPi/etc/fstab
+     - /dev/mmcblk0p1		/boot		auto		noauto,noatime	1 2
+     - /dev/mmcblk0p2		none		swap		sw		0 0
+     - /dev/mmcblk0p3		/		ext4		noatime		0 1    
+- Set the boot options
+   - Must configure the boot options in /mnt/PintoGPi/boot/cmdline.txt
+     - Add to cmdline.txt this dwc_otg.lpm_enable=0 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p3 rootfstype=ext4 elevator=deadline rootwait 
+- Config correct time zon
+   - For Azores cp /mnt/PintoGPi/usr/share/zoneinfo/Atlantic/Azores /mnt/PintoGPi/etc/localtime (normaly I use a simbolic link)
+   - echo "Atlantic/Azores" > /mnt/PintoGPi/etc/timezone
 - remove pass from root user
-- reboot
+   - Lets force first start with no password in root
+     - sed -i 's/^root:.*/root::::::::/' /mnt/PintoGPi/etc/shadow
+- Unmount SD drives and reboot
+   - umount /mnt/PintoGPi/boot
+   - umount /mnt/PintoGPi 
+- Remove sd from your system and put it in RarpberyPi 
+
+## Stpes to get it done no in Rapbery Pi
 ... Will continue
