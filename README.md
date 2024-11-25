@@ -1,6 +1,6 @@
 # PintoGPi
 ## This project is just a Gentoo intalation in Pi model 1 B+ with a [Zx Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) emulator
-- Why Gentoo, just because I can and I whant to test some cross compiling "techniques" ;)
+- Why [Gentoo](https://www.gentoo.org), just because I can and I whant to test some cross compiling "techniques" ;)
 - The instalations will be made all from  my Arch Linux [PintArch](https://github.com/dpnpinto/PintArch)
 - Don't use my version of Arch, do yourself a favor and install [Arch](https://archlinux.org) and, then, you are prepared for [Gentoo](https://www.gentoo.org)
 - I will leave here the image with all config done but It's nice to learn with a Gentoo instlation then I sugest that you do it yourself. "This is hte way" (MAlandorian way :D) that I have done it. 
