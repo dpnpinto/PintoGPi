@@ -10,18 +10,26 @@
 ### Steps to get it done
 
 - Partition the SD card the right way
-   - Partion 1 - Fat 32 as Boot
-   - Partion 2 - As SWAP, 2x memory
-   - Partition 3 - Root system, I use ext4
+   - partition 1 - Fat 32 as Boot
+   - partition 2 - As SWAP, 2x memory
+   - partition 3 - Root system, I use ext4
+I use cfdisk, but you can use other software like fdisk or parted. 
 - Format the SD card
    - Make partition 1 as Fat 16
+     mkfs.vfat -F 16 /dev/"partition 1"
    - Make partition 2 as SWAP
+     mkswap /dev/"partition 2"
    - MAke partition 3 as ext4
+     mkfs.ext4 /dev/"partition 3"
 - Mount stuff in your linux distro (I use Arch BTW :D))
-   - Create a directory in /mnt
-   - mount your sd card aprtition 3 to that directory
-   - 
+   - Create a directory in /mnt and mount your sd card partition 3 to that directory
+     mkdir /mnt/PintoGPi
+     mount /dev/"partition 3" /mnt/PintoGPi
+   - Same thing for the boot
+     mkdir /mnt/PintoGPi/boot/
+     mount /dev/"partition 1" /mnt/PintoGPi/boot
 - Copy the stage 3 Gentoo to your mounted SD drive
+   - They are here [Gentoo stage 3 images](https://gentoo.osuosl.org/releases/arm/autobuilds/)
 - Copy the boot stuff Kernel and modules to boot
 - Config correct keyboard
 - Config correct local
