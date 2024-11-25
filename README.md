@@ -8,7 +8,7 @@
 
 - Partition the SD card the right way
    - Partion 1 - Fat 32 as Boot
-   - PArtion 2 - As SWAP, 2x memory
+   - Partion 2 - As SWAP, 2x memory
    - Partition 3 - Root system, I use ext4
 - Format the SD card
    - Make partition 1 as Fat 16
