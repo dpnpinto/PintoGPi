@@ -1,11 +1,11 @@
 # PintoGPi
 ![Gentoo](https://assets.gentoo.org/tyrian/v1/site-logo.svg "Gentoo")
 
-## This project is just a Gentoo intalation in Pi model 1 B+ with a [Zx Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) emulator
-- Why [Gentoo](https://www.gentoo.org), just because I can, and Raspberry Pi 1 B is a great little device for learning, but it can be challenging to find a suitable operating system for it.
+## This project it is a Gentoo intalation in Pi model 1 B+, with a [Zx Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) emulator
+- Why [Gentoo](https://www.gentoo.org), just because I can, and Raspberry Pi 1 B is a great little device for learning, it can be challenging to find a suitable small operating system for it.
 - The instalations will be made all from  my Arch Linux [PintArch](https://github.com/dpnpinto/PintArch)
 - Don't use my version of Arch, do yourself a favor and install [Arch](https://archlinux.org) and, then, you are prepared for [Gentoo](https://www.gentoo.org)
-- I will leave here the image with all config done but It's nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
+- I will leave here the image with all my config done but It's very nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
 
 ### Steps to get it done, format and copy stage 3 Gentoo to SD
 
