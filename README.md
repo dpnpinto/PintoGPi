@@ -9,7 +9,7 @@
 
 ### Steps to get it done, format and copy stage 3 Gentoo to SD
 
-- Partition the SD card the right way
+- Partition the [SD card](https://en.wikipedia.org/wiki/SD_card) the right way
    - partition 1 - Fat 32 as Boot
    - partition 2 - As SWAP, 2x memory
    - partition 3 - Root system, I use ext4
@@ -64,7 +64,7 @@ I use cfdisk, but you can use other software like fdisk or parted.
 - Unmount SD drives and reboot
    - umount /mnt/PintoGPi/boot
    - umount /mnt/PintoGPi 
-- Remove sd from your system and put it in RarpberryPi 
+- Remove SD Card from your system and put it in RarpberryPi 
 
 ## Steps to get it done, booting with the Raspberry Pi
 ... Will continue
