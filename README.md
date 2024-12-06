@@ -3,9 +3,10 @@
 
 ## This project is a [Gentoo](https://pt.wikipedia.org/wiki/Gentoo_Linux) intalation in a 2014 [Pi model 1 B+](https://en.wikipedia.org/wiki/Raspberry_Pi), with a [Zx Spectrum](https://en.wikipedia.org/wiki/ZX_Spectrum) emulator, and some cross compiler for Gentoo, yes the Pi is very weak for [Portage](https://wiki.gentoo.org/wiki/Portage).
 - Why [Gentoo](https://www.gentoo.org), just because I can, and Raspberry Pi 1 B is a great little device for learning, it can be challenging to find a suitable small operating system for it.
+- Yes, I have the porpose to test with this project the Gentoo [Crss-Compiling](https://wiki.gentoo.org/wiki/Distcc/Cross-Compiling) capabilities 
 - The instalations will be made all from  my Arch Linux [PintArch](https://github.com/dpnpinto/PintArch)
 - Don't use my version of Arch, do yourself a favor and install [Arch](https://archlinux.org) and, then, you are prepared for [Gentoo](https://www.gentoo.org)
-- I will leave here the image with all my config done but It's very nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
+- I also will leave here the image with all my config done but It's very nice to learn with a Gentoo instalation, I sugest that you do it yourself. "This is the way" (Malandorian way :D). 
 
 ### Steps to get it done, format and copy stage 3 Gentoo to SD
 
