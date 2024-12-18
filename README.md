@@ -42,7 +42,7 @@ I use cfdisk, but you can use other software like fdisk or parted.
       - Get it with wget https://gentoo.osuosl.org/snapshots/portage-latest.tar.xz
       - Extract to your /usr in sd card tar -xf portage-latest.tar.xz -C /mnt/PintoGPi/usr
 - Install the Kernel and modules of the Raspberry Pi
-    - You can get all the stuff of Raepbery Pi from https://github.com/raspberrypi/firmware/
+    - You can get all the stuff of Raspbery Pi from https://github.com/raspberrypi/firmware/
       - Clone the stable repository
         - git clone -b stable --depth 1 https://github.com/raspberrypi/firmware/
       - get inside the cloned firmware cd firmware
